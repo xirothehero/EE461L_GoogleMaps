@@ -28,9 +28,25 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Search"
+        android:text="Search One Location"
         android:textSize="16dp"
         android:onClick="locationSearch"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginBottom="4dp"
+        android:id="@+id/second_search"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search Two Locations"
+        android:textSize="16dp"
+        android:onClick="doubleSearch"
         />
 
 </LinearLayout>
